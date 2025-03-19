@@ -1,0 +1,15 @@
+[package]
+name = "Persnft"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x6698ae64f3984b1279a7b96ee04b89c540c65dbd6533f973e57c3f57ab1fdcc"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
